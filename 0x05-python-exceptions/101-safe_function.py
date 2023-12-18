@@ -11,3 +11,5 @@ def safe_function(fct, *args):
         return None
     else:
         return res
+#John Mbithi Mutave
+#jellyjones-pixel

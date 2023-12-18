@@ -10,3 +10,5 @@ def magic_calculation(a, b):
             result = b + a
             break
     return result
+#John Mbithi Mutave
+#jellyjones-pixel

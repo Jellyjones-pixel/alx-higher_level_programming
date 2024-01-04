@@ -5,5 +5,3 @@
 class Rectangle:
     """Represent a rectangle."""
     pass
-# John Mbithi 
-#Jellyjones-pixel

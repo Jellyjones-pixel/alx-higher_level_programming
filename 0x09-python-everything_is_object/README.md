@@ -37,4 +37,6 @@ BTW, have you ever modified a variable without knowing it or wanting to?
 
 ## Author
 
-**Brian Achieng**
+"""John Mbithi
+J  ellyjones-pixel
+"""

@@ -9,3 +9,6 @@ class LockedClass:
     """
 
     __slots__ = ["first_name"]
+"""John Mbithi
+J  ellyjones-pixel
+"""

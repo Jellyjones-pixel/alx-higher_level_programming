@@ -16,3 +16,6 @@ def max_integer(list=[]):
             result = list[i]
         i += 1
     return result 
+"""John Mbithi
+J  ellyjones-pixel
+"""

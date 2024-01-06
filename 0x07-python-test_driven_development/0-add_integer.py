@@ -8,3 +8,6 @@ def add_integer(a, b=98):
         raise TypeError("b must be an integer")
 
     return(int(a) + int(b))
+"""John Mbithi
+J  ellyjones-pixel
+"""

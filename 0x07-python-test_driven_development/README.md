@@ -27,4 +27,6 @@ Based on the requirements of each task, we should always write the documentation
 
 ## Author
 
-Achieng Brian
+"""John Mbithi
+J  ellyjones-pixel
+"""

@@ -1,18 +1,24 @@
 #!/usr/bin/python3
-"""  lists all states from the database hbtn_0e_0_usa """
+"""its a function that filters states"""
 import MySQLdb
-import sys
 
 
-if __name__ == "__main__":
-    db = MySQLdb.connect(host="localhost", user=sys.argv[1],
-                         passwd=sys.argv[2], db=sys.argv[3], port=3306)
+def main(argv):
+    if len(argv) != 4:
+        print('Incorrect number of arguments')
+        return
+
+    db = MySQLdb.connect(host='localhost', user=argv[1], passwd=argv[2], db=argv[3],port=3306)
     cur = db.cursor()
-    cur.execute("""SELECT * FROM states WHERE name
-                LIKE BINARY 'N%' ORDER BY states.id""")
-    rows = cur.fetchall()
-    for row in rows:
-        print(row)
-    cur.close()
+    cur.execute('SELECT * FROM states ORDER_BY id ASC')
+
+    for row in cur.fetchall():
+        if row[1][0] == "N":
+            print(row)
+
     db.close()
-""" Jellyjones-pixels """ 
+
+
+if __name__ == '__main__':
+    from sys import argv
+    main(argv)
